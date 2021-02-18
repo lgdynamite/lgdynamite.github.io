@@ -1,0 +1,262 @@
+html{
+  background-image: url('../img/marsSurface.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:#af5d17;
+}
+body{
+  color:#000000;
+  font-family:Verdana, serif, "Times New Roman";
+}
+#wrapper{
+  background-color: #27586B;
+  box-shadow: 5px 5px 5px #2E0000;
+  margin: 0 auto;
+  width: 70%;
+  min-width: 960px;
+  max-width: 2048px;
+}
+.mobile{
+  display: none;
+}
+.desktop{
+  display: inline;
+}
+header{
+  display: block;
+}
+nav{
+  background-color:#27586B;
+  height: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+  width: auto;
+  text-align:center;
+  font-weight:bold;
+}
+nav > ul {
+  list-style: none;
+  padding-left:0;
+  font-size:1.2em;
+}
+nav > ul > li{
+  display: inline;
+	padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+nav > ul > li > a {
+  text-decoration:none;
+      }
+nav > ul > li > a:link{
+  color:#3e3e3e;
+}
+nav > ul > li > a:visited{
+  color:#813333;
+}
+nav > ul > li > a:hover, a:focus{
+  color:#ededed;
+}
+main{
+  display: block;
+  background-color:#919090;
+  padding:20px;
+}
+main > article{
+  overflow: auto;
+  font-size:90%;
+  padding-right:5%;
+  padding-left:5%;
+}
+main > img {
+  float:left;
+  padding-right:2em;
+}
+main > ul {
+  list-style-position: inside;
+}
+#video{
+	text-align: center;
+}
+#video > iframe{
+	padding:10px;
+}
+h1{
+  height:100px;
+  margin:0px;
+  background-image:url('../img/martians.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  text-indent:-9999px;
+  font-family:serif, Georgia, "Times New Roman";
+}
+h2{
+  font-family:serif, Georgia, "Times New Roman";
+}
+h3{
+  text-transform:uppercase;
+}
+article{
+  display: block;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+form label{
+  float: left;
+  display:block;
+  text-align: left;
+  width: 120px;
+  padding-right: 0px;
+}
+form input{
+  display: block;
+  margin-bottom: 20px;
+}
+form textarea{
+  display: block;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 60px;
+}
+form input [type="submit"]{
+  margin-left: 130px;
+}
+dt{
+  font-weight:bold;
+}
+table{
+  margin: auto;
+  width: 80%;
+}
+table > td, th{
+  padding: 10px
+}
+tr:nth-child(odd) {
+  background-color: #813333;
+}
+footer{
+  display: block;
+  font-size:.60em;
+  font-style:italic;
+  text-align:center;
+  background-color: #27586B;
+  color: #000000;
+  padding:10px;
+}
+footer > small > a:link{
+  color:#000000;
+}
+footer > small > a:visited{
+  color:#969696;
+}
+footer > small > a:hover, a:focus{
+  color:#ffffff;
+}
+/* Scrollbar Customization*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #8b4a13;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/* Tablet Section */
+@media only screen and (max-width: 64em) {
+  html{
+    background-image:none;
+  }
+  body{
+    margin:0;
+  }
+  #wrapper{
+    min-width: 0;
+    width:auto;
+    box-shadow: none;
+  }
+  main{
+    margin-left: 0;
+  }
+  nav{
+    float: none;
+    width:auto;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+  nav > ul{
+    text-align: center;
+  }
+  nav > ul > li{
+    display: inline;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: .75em;
+    padding-right: .75em;
+  }
+}
+/*Smartphone Section*/
+@media only screen and (max-width: 760px) {
+  h1{
+    margin:0;
+    background-image: none;
+  }
+  nav > ul > li{
+    display: inline-block;
+    width: 5em;
+    font-size: 120%;
+    text-align: center;
+    box-shadow: 4px 4px 4px #0d0d0d;
+    background-color: #ffffff;
+    margin: 1%;
+    padding: 2.5%
+  }
+  nav > ul > li > a{
+    display: block;
+  }
+  nav > ul > li > a:hover{
+    color: #333300 
+  }
+  main > a:link{
+    color:#FFFFFF;
+  }
+  main > a:visited{
+    color:#EAEAEA;
+  }
+  main > a:hover{
+    color:#FFD700;
+  }
+  article{
+    margin: 0;
+  }
+  article > a > img{
+    display:none;
+  }
+  form label{
+    float:none;
+  }
+  form input [type="submit"]{
+    margin-left: 0;
+  }
+  #hero{
+    height:auto;
+  }
+  .mobile{
+    display:inline;
+  }
+  .desktop{
+    display:none;
+  }
+}
+
+
+
